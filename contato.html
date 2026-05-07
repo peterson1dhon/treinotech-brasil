@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | TreinoTech Brasil</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .contact-form { max-width: 540px; }
+    .form-group { margin-bottom: 20px; }
+    .form-group label { display: block; font-weight: 600; margin-bottom: 6px; font-size: 0.9rem; }
+    .form-group input, .form-group textarea {
+      width: 100%; padding: 12px 14px; border: 1px solid #ddd;
+      border-radius: 8px; font-size: 0.95rem; font-family: inherit;
+      transition: border-color 0.2s;
+    }
+    .form-group input:focus, .form-group textarea:focus { outline: none; border-color: #2ECC71; }
+    .form-group textarea { height: 140px; resize: vertical; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">TreinoTech Brasil</a>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="artigos/fones-academia.html">Reviews</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </div>
+</header>
+<div class="static-page">
+  <h1>Entre em Contato</h1>
+  <p>Duvidas sobre algum produto, sugestao de artigo ou proposta de parceria? Preencha o formulario abaixo.</p>
+  <form class="contact-form" onsubmit="alert('Mensagem enviada! Retornaremos em breve.');return false;">
+    <div class="form-group">
+      <label>Seu nome</label>
+      <input type="text" placeholder="Joao Silva" required>
+    </div>
+    <div class="form-group">
+      <label>Seu e-mail</label>
+      <input type="email" placeholder="joao@email.com" required>
+    </div>
+    <div class="form-group">
+      <label>Assunto</label>
+      <input type="text" placeholder="Ex: Duvida sobre fones, sugestao de artigo...">
+    </div>
+    <div class="form-group">
+      <label>Mensagem</label>
+      <textarea placeholder="Escreva sua mensagem aqui..." required></textarea>
+    </div>
+    <button type="submit" class="btn btn-green" style="width:100%;padding:14px;">Enviar Mensagem</button>
+  </form>
+</div>
+<footer>
+  <div class="footer-links">
+    <a href="sobre.html">Sobre</a>
+    <a href="contato.html">Contato</a>
+    <a href="privacidade.html">Privacidade</a>
+    <a href="afiliados.html">Aviso de Afiliados</a>
+  </div>
+  <p>2026 TreinoTech Brasil</p>
+</footer>
+</body>
+</html>
